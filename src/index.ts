@@ -21,3 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
   headerContainer.appendChild(headerComponent());
   productsContainer.appendChild(productsListComponent());
 });
+
+import { footerComponent } from "./footer.js";
+
+const footerContainer = document.getElementById("footer");
+
+if (footerContainer) {
+  footerContainer.appendChild(footerComponent());
+}
